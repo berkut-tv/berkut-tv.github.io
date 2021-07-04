@@ -24,5 +24,7 @@ function processFormData(e) {
     }, 10000);
 
 }
-
+if(form){
 form.addEventListener('submit', processFormData);
+}
+
