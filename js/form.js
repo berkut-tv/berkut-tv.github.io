@@ -7,15 +7,13 @@ function processFormData(e) {
 
     e.preventDefault();
 
+//     button.classList.add("button--loading");
 
-    button.classList.add("button--loading");
-
-    setTimeout(() => {
-        button.classList.remove("button--loading");
-    }, 5000);
+//     setTimeout(() => {
+//         button.classList.remove("button--loading");
+//     }, 5000);
 
     setTimeout(function () {
-
         message.textContent = 'Ваше сообщение отправлено.';
         message.style.color = 'black';
     }, 5000);
