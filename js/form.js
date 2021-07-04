@@ -1,7 +1,7 @@
-const form = document.getElementById('form331078264');
-const messageContainer = document.querySelector('.message-container');
-const message = document.getElementById('message');
-const button = document.getElementById('submit-btn');
+var form = document.getElementById('form331078264');
+var messageContainer = document.querySelector('.message-container');
+var message = document.getElementById('message');
+var button = document.getElementById('submit-btn');
 
 function processFormData(e) {
 
